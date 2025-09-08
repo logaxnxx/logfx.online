@@ -1,0 +1,68 @@
+<!-- Right click file and select open with live server to see updates on website in live time -->
+
+<!DOCTYPE html>
+<!--html:5, this specifies the document type and version of HTML,
+ensuring proper rendering and behavior in web browsers. (HTML5 in this case) -->
+
+<html lang="en"> <!--defines the language-->
+
+<head> <!-- contains meta-information about the document, such as its title, character set, styles, and scripts.-->
+    <meta charset="UTF-8"> <!--proper text rendering-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--ensures the webpage is responsive and
+    displays correctly on different devices-->
+
+    <title>My First Site</title> <!--sets the title of the webpage, that shows in the browser tab-->
+
+</head>
+
+<body style="background-color: limegreen;">
+    <h1 
+        style="
+            color: red; 
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 60px;
+        "
+    
+    >
+        Hello User *!4sfx4a.exe
+    </h1>
+    <p>
+        By opening this link and reading this page I now have access to your device.
+    </p>
+    <textarea placeholder="enter account password"></textarea>
+    <br>
+ <button class="my-btn" onclick="openPopup()">Click here to remove</button>
+ <script>
+    function openPopup() {
+        window.open("https://www.youtube.com/watch?v=b2pD0B9Rfps", "popup", "width=600,height=400");
+    }
+</script>
+
+<style>
+.my-btn {
+  background-color: red;
+  color: yellow;
+  border: 2px solid black;
+  padding: 15px;
+  font-size: 25px;
+  margin: 20px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+
+.my-btn:hover {
+  background-color: orange;   /* should change on hover */
+}
+
+.my-btn:active {
+  background-color: darkred;  /* while mouse is pressed */
+  transform: scale(0.92);
+}
+</style>
+<br>
+    <img src="trollFace.jpg" alt="Image" height="500" width="600"
+    style="margin-left: 100px ;">
+</body>
+
+</html>
